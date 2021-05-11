@@ -1,6 +1,6 @@
 // alert('Olá Mundo')
 
-window.alert('Olá')
+// window.alert('Olá')
 document.write('Olá Mundo!')
 
 console.log('Esta no console do navegador')
@@ -78,8 +78,78 @@ console.log(5 / 4)
 console.log(5 % 4)
 console.log(5 ** 4)
 
-let confirmacao = confirm('Você estuda na FIAP?')
-console.log(confirmacao)
+// let confirmacao = confirm('Você estuda na FIAP?')
+// console.log(confirmacao)
 
-let pergunta = prompt('Qual o seu nome?')
-console.log(pergunta)
+// let pergunta = prompt('Qual o seu nome?')
+// console.log(pergunta)
+
+if(false) {
+    console.log("O if funcionou")
+}
+
+else {
+    console.log("Não Funcionou")
+}
+
+let caso1 = "50"
+let caso2 = 50
+
+if (caso1 > 30) {
+    console.log('Passou');
+}
+
+if (caso1 == caso2) {
+    console.log('Passou de novo');
+}
+
+if (caso1 === caso2) {
+    console.log('É igual');
+}
+
+else {
+    console.log('Não é igual');
+}
+
+for (let i = 0; i < 10; i++) {
+    console.log('Volta ', i)
+}
+
+let frutas = ['Maça', 'Uva', 'Pera', 'Laranja']
+
+for (let i = 0; i < frutas.length; i++) {
+    console.log(frutas[i]);
+}
+
+for (let fruta of frutas) {
+    console.log(fruta)
+}
+
+function somar(n1, n2) {
+    return n1 + n2
+}
+
+console.log(somar(7,3))
+
+function avisar() {
+    alert('Esta é uma função')
+}
+
+let exemplo = function() {
+    alert('Outro Exemplo')
+}
+
+let titulo = document.getElementById('titulo')
+console.log(titulo)
+console.log(typeof titulo);
+console.log(titulo.innerHTML);
+titulo.style.color = 'red'
+
+let titulo1 = document.querySelector("#titulo") //Uma ocorrência
+console.log(titulo1)
+
+document.querySelectorAll(".corredor")[0].style.color = "blue"
+document.querySelectorAll(".corredor")[1].style.color = "green"
+document.querySelectorAll(".corredor")[2].style.color = "red"
+
+document.querySelector(".corredor").style.backgroundColor = "yellow"

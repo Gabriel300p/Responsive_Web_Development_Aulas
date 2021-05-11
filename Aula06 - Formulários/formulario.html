@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        form {
+            width: 31%;
+            margin: auto;
+        }
+
+        label {
+            display: inline-block;
+            width: 80px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form name="dados" action="Contato" method="get">
+        <fieldset>
+            <legend>Dados de Cliente</legend>
+            <label for="idnome">Nome: </label>
+            <input type="text" name="nome" id="idnome" required placeholder="Digite o seu nome"> <br>
+
+            <label for="idEmail">E-mail: </label>
+            <input type="email" name="email" id="idEmail" required> <br>
+
+            <label for="idSenha">Senha:</label>
+            <input type="password" name="senha" id="idSenha" autofocus> <br>
+
+            <label for="idBusca">Busca: </label>
+            <input type="search" name="busca" id="idBusca"> <br>
+
+            <label for="idUrl">Site: </label>
+            <input type="url" name="site" id="idUrl" value="fiap.com.br"> <br>
+
+            <label for="idTelefone">Telefone: </label>
+            <input type="tel" name="telefone" id="idTelefone"> <br>
+
+            <label for="idData">Data: </label>
+            <input type="date" name="data" id="idData"> <br>
+
+            <label for="idHora">Hora: </label>
+            <input type="time" name="hora" id="idHora"> <Br>
+
+            <label for="idAgenda">Agenda: </label>
+            <input type="datetime-local" name="agenda" id="idAgenda"> <br>
+
+            <label for="idMes">Mês: </label>
+            <input type="month" name="mes" id="idMes"> <br>
+
+            <label for="idSemana">Semana: </label>
+            <input type="week" name="semana" id="idSemana"> <br>
+
+            <label for="idQuant">Quantidade</label>
+            <input type="number" name="Quantidade" id="idQuant" step="0.01" min="5" max="50"> <br>
+
+            <label for="idUnid">Unidades: </label>
+            <input type="range" name="unidade" id="idUnid" step="5" min="0" max="50"> <br>
+
+            <label for="idCores">Cores: </label>
+            <input type="color" name="cores" id="idCores"> <br>
+
+            <fieldset>
+                <legend>Tamanho</legend>
+                <input type="radio" name="tamanho" id="idPeq" value="P" checked="">
+                <label for="idPeq">Pequeno</label>
+                <input type="radio" name="tamanho" id="idMed" value="M">
+                <label for="idMed">Médio</label>
+                <input type="radio" name="tamanho" id="idGra" value="G">
+                <label for="idGra">Grande</label>
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Cores</legend>
+                <input type="checkbox" name="cor" id="idVerde" value="Verde">
+                <label for="idVerde">Verde</label> <br>
+                <input type="checkbox" name="cor" id="idPreto" value="Preto" checked>
+                <label for="idPreto">Preto</label> <br>
+                <input type="checkbox" name="cor" id="IdVermelho" value="Vermelho">
+                <label for="idVermelho">Vermelho</label>
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Estados</legend>
+                <select name="estado" id="idEstado">
+                    <option value="" disabled selected>Selecione</option>
+                    <optgroup label="1">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup>
+                    <optgroup label="2">
+                        <option value="SC">Santa Catarina</option>
+                        <option value="MG">Mina Gerais</option>
+                    </optgroup>
+                </select>
+            </fieldset> <br>
+
+            <label for="idObs">Observação: </label> 
+            <textarea name="obs" id="idObs" cols="50" rows="10"></textarea> <br>
+
+            <input type="file" name="oc" id="idDocumento"> <br>
+
+            <input type="reset" value="Limpar">
+
+            <input type="button" value="Calcular">
+
+            <input type="submit" value="Cadastro">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+
+/*Seletor pela TAG*/
+
+p {
+   color: blue; 
+}
+
+/* Seletor pelo ID */
+
+#primeiro {
+    color:  #21ca21;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Seletor por class */
+
+.laranja {
+    color: #ffa500;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+}
+
+.grande {
+    font-size: 30px;
+}
+
+.negrito {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div {
+    background-color: #eb8181;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* body {
+    background-image: url(/img/FIAP_School.png);
+    background-attachment: fixed;
+} */
+
+/* Hierarquia de seletores
+
+1 - ID
+2 - CLASS
+3 - TAG
+
+*/

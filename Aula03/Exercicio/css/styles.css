@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Teko:wght@700&display=swap');
+#fiap {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: underline overline;
+    color: #f02965
+}
+
+#Esportes {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: green;
+}
+
+#segundo {
+    font-size: 25px;
+    background-color: #ffc400;
+}
+
+#Négocios {
+    font-family: 'Indie Flower', cursive;
+    font-size: 37px;
+    background-color: rgb(209, 87, 87);
+}
+
+#terceiro {
+    color: beige;
+}

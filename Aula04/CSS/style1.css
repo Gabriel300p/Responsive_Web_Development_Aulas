@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 1000px;
+}
+
+.tamanho { 
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: #ff0000;
+    /* position: absolute;
+    top: 20px;
+    left: 200px;
+    z-index: 1; */
+    float: left;
+}
+
+.yellow {
+    background-color: #ffff00;
+    /* position: absolute;
+    top: 70px;
+    left: 250px; */
+    float: left;
+}
+
+.green {
+    background-color: #008000;
+    /* position: absolute;
+    top: 130px;
+    left: 300px; */
+    float: left;
+}
+

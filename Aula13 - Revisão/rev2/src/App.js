@@ -1,7 +1,9 @@
 import React from 'react'
 import './App.css'
 import CompTeste from './components/ComponenteTeste'
+import TesteState from './components/TesteState'
 
+// eslint-disable-next-line
 export default () => {
 
   const paragrafo = {
@@ -17,6 +19,7 @@ export default () => {
       <p style={paragrafo}>Formas de inserir CSS em um componente</p>
       <p className="exemplo">Aqui um exemplo do "className"</p>
       <CompTeste/>
+      <TesteState/>
     </>
   )
 }
